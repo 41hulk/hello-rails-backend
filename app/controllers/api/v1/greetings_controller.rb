@@ -14,5 +14,4 @@ class Api::V1::GreetingsController < ApplicationController
     @greeting = Greeting.find(params[:id])
     render json: @greeting
   end
-
 end
